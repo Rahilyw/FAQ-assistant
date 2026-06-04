@@ -1,0 +1,15 @@
+# Environment variables - never commit real credentials
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# dotnet
+.config/

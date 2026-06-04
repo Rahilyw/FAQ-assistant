@@ -1,0 +1,36 @@
+{
+  "$schema": "https://github.com/Azure/data-api-builder/releases/latest/download/dab.draft.schema.json",
+  "data-source": {
+    "database-type": "mssql",
+    "connection-string": "Server=tcp:<your-server>.database.windows.net,1433;Initial Catalog=<your-db>;Persist Security Info=False;User ID=<your-username>;Password=<your-password>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  },
+  "runtime": {
+    "rest": {
+      "enabled": true
+    },
+    "mcp": {
+      "enabled": true
+    },
+    "host": {
+      "mode": "development"
+    }
+  },
+  "entities": {
+    "faqContent": {
+      "source": {
+        "object": "dbo.FAQ_Content",
+        "type": "table"
+      },
+      "primary_key": [ "Id" ],
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [ "read" ]
+        }
+      ],
+      "mcp": {
+        "description": "Approved FAQ content used to answer customer support questions."
+      }
+    }
+  }
+}
