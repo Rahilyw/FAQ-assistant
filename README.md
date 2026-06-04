@@ -9,7 +9,7 @@
 
 An end-to-end AI-powered FAQ assistant that uses **vector semantic search** in Azure SQL Hyperscale, **Retrieval-Augmented Generation (RAG)** with GPT-4o, and **Model Context Protocol (MCP)** to ground AI responses in approved support content — with no hallucinations.
 
-Built as part of the Microsoft Build 2026 Digital Lab: *Build an AI-Powered FAQ Assistant with Azure SQL, Microsoft Fabric, and Foundry*.
+Built as part of the Microsoft Build 2026 Digital Lab
 
 ---
 
