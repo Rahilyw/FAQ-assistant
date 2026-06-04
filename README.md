@@ -4,8 +4,6 @@
 ![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-GPT--4o-412991?style=flat&logo=openai&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-OneLake-F2C811?style=flat&logo=powerbi&logoColor=black)
-![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-00B4D8?style=flat)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
 An end-to-end AI-powered FAQ assistant that uses **vector semantic search** in Azure SQL Hyperscale, **Retrieval-Augmented Generation (RAG)** with GPT-4o, and **Model Context Protocol (MCP)** to ground AI responses in approved support content — with no hallucinations.
 
