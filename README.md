@@ -150,5 +150,3 @@ Open `sql-scripts/rag_pipeline.sql` in VS Code with the MSSQL extension. Replace
 - The difference between a grounded AI response and a hallucinated one — and how to enforce grounding
 
 ---
-
-*Built at Microsoft Build 2026 — LAB513D*
